@@ -1,0 +1,29 @@
+
+  .student {
+    background-color: rgba(132, 133, 135, 0.526);
+    border: 2px solid rgba(0, 0, 0, 0.844);
+    padding: 30px;
+    width: 300px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .grid-view{
+    display: grid;
+    gap: 20px;
+    grid-template-columns:repeat(3,1fr);
+    padding: 20px;
+}
+
+@media(max-width:1067px){
+.grid-view{
+    padding: 0 10px;
+    grid-template-columns: repeat(2,1fr);
+}
+}
+@media(max-width:524px){
+   .grid-view{
+     padding: 0 10px;
+    grid-template-columns: 1fr;}
+
+
+}
